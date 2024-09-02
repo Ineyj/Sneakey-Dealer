@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakey Dealer </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="container">
+            <div class="navbar">
+                <a href="#" class="logo">
+                <img src="sneaky.png"alt="">
+                </a>
+                <ul li="sideMenu">
+                    <li><a href="#" class="active">Menu</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+
+                <div class="nav_btn">
+                    <button class="logn_btn">
+                    <li><a href="login.html">Login</a></li>
+                    </button>
+                    <button id="toggleBtn" class="toggle_btn">
+                        <img src="OIP.jfif" alt="" width="100" height="100">
+                    </button>
+                </div>
+
+            </div>          
+
+        <div class="bottom_content">
+            <div class="bottom_left">
+                <h1>Your feet deserve the best</h1>
+                <p>Our footwear combines luxurious comfort with cutting-edge design, offering perfect cushioning and support for every step, day or night.</p>
+                <div class="btn_sec">
+                    <nav>
+                        <ul>
+                           <button><li><a href="Shop Now.html">Shop Now</a></li></button>
+                           <button><li><a href="Category.html">Category</a></li></button>
+                        </ul>
+                </div>
+            </div>
+            <div class="bottom_rigth">
+                <img src="shoe 2.jpg" class="bg_effect">
+                <img src="" class="shoes_img">
+            </div>
+        </div>
+    </div>
+
+
+   <script>
+     var toggleBtn = document.getElementById("toggleBtn");
+     var sideMenu = document.getElementById("sideMenu");
+
+     toggleBtn.addEventListener('click', ()=> {
+        sideMenu.classList.toggle('active');
+     });
+
+   </script> 
+</body>
+</html> 
+
+      
